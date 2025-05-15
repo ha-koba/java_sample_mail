@@ -13,7 +13,7 @@ import javax.mail.internet.MimeMessage;
  * @author tomo-sato
  */
 public class TestJavaMail {
-	public TestJavaMail() { System.out.println("TestJavaMailのコンストラクタです。"); }
+	public TestJavaMail() { }
 	public void execute(MailContents mailContents) {
 		// メールサーバ
 		String mailhost = "localhost";
